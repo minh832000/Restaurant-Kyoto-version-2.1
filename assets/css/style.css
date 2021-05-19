@@ -1034,3 +1034,16 @@ a.buttons.type1:hover {
 #to-menu a:hover {
     background: rgba(255, 255, 255, 0.589);
 }
+
+@media (max-width: 576px) {
+    #main-about p {
+        font-size: 1rem;
+        word-spacing: 2px;
+    }
+
+    #main-about h1 {
+        font-size: 1.25rem;
+        word-spacing: 2px;
+    }
+
+}
