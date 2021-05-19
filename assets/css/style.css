@@ -113,11 +113,6 @@ p {
 /* -----------------------------------------------------------------
 ##### Buttons Effect Hover
 ----------------------------------------------------------------- */
-a.buttons.type1 {
-    left: 40%;
-    right: 40%;
-}
-
 .buttons {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
@@ -796,6 +791,13 @@ a.buttons.type1:hover {
 
 #decor-sake .titles:hover span {
     background-size: 100%;
+}
+
+@media (max-width: 576px) {
+    #decor-sake .titles {
+        font-size: 2rem;
+        padding: 0;
+    }
 }
 
 /* ---------------------------------------------------------------
