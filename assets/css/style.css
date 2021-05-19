@@ -987,6 +987,7 @@ a.buttons.type1:hover {
     width: 100%;
     object-position: center;
     object-fit: cover;
+    filter: brightness(0.7);
 }
 
 #main-about.main-about {
@@ -1000,12 +1001,15 @@ a.buttons.type1:hover {
 #main-about p {
     font-size: 1.15rem;
     font-weight: 300;
+    word-spacing: 10px;
+    line-height: 1.75;
 }
 
 #main-about h1 {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 2rem;
+    word-spacing: 5px;
 }
 
 #to-menu p {
@@ -1025,4 +1029,8 @@ a.buttons.type1:hover {
 
 #to-menu a {
     width: 200px;
+}
+
+#to-menu a:hover {
+    background: rgba(255, 255, 255, 0.589);
 }
