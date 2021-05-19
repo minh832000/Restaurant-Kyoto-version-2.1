@@ -878,6 +878,7 @@ a.buttons.type1:hover {
     left: 0;  
     right: 0;  
 }
+
 #banner p {
     font-size: 3.5rem;
     font-weight: 600;
@@ -976,4 +977,52 @@ a.buttons.type1:hover {
 #products .product-list_item .price-item {
     font-size: 1.15rem;
     font-weight: 300;
+}
+
+/* -----------------------------------------------------
+##### About Us Style
+------------------------------------------------------ */
+#main-about img {
+    height: 320px;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+#main-about.main-about {
+    padding: 90px 0 45px;
+}
+
+#main-about section {
+    padding-bottom: 45px;
+}
+
+#main-about p {
+    font-size: 1.15rem;
+    font-weight: 300;
+}
+
+#main-about h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+#to-menu p {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#to-menu .btn-menu {
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    font-size: 1.6rems;
+    font-weight: 500;
+    margin: auto 0;
+}
+
+#to-menu a {
+    width: 200px;
 }
