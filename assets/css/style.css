@@ -292,6 +292,54 @@ a.buttons.type1:hover {
     color: #fff;
 }
 
+/* ---------------------------------------------------------------
+##### Footer
+--------------------------------------------------------------- */
+#footer .footer-top {
+    border-top: 1px solid #37332a;
+}
+#footer img {
+    max-width: 260px;
+}
+
+#footer .footer-info,
+#footer .footer-contact {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+#footer .name {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#footer .titles {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #28251f;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+#footer .social-links a:hover {
+    background: #d00000;
+    color: #fff;
+    text-decoration: none;
+}
+
 /* ------------------------------------------------------------
 ##### Navigation Menu
 ------------------------------------------------------------ */
@@ -581,12 +629,16 @@ a.buttons.type1:hover {
 }
   
 /* ---------------------------------------------------------------
+##### Home Page Style
+---------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------
 ##### Carousel Images
 ----------------------------------------------------------------*/
 #slide img{
     height: 100vh;
     max-width: 100%;
-    filter: brightness(70%);
+    filter: brightness(0.7);
     object-fit: cover;
     object-position: center;
 }
@@ -799,63 +851,8 @@ a.buttons.type1:hover {
         padding: 0;
     }
 }
-
-/* ---------------------------------------------------------------
-##### Footer
---------------------------------------------------------------- */
-#footer .footer-top {
-    border-top: 1px solid #37332a;
-}
-#footer img {
-    max-width: 260px;
-}
-
-#footer .footer-info,
-#footer .footer-contact {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-    font-weight: 200;
-}
-
-#footer .name {
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-#footer .titles {
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-#footer .social-links a {
-    font-size: 18px;
-    display: inline-block;
-    background: #28251f;
-    color: #fff;
-    line-height: 1;
-    padding: 8px 0;
-    border-radius: 50%;
-    text-align: center;
-    width: 36px;
-    height: 36px;
-    transition: 0.3s;
-    text-decoration: none;
-}
-
-#footer .social-links a:hover {
-    background: #d00000;
-    color: #fff;
-    text-decoration: none;
-}
-
 /* --------------------------------------------------------------
-##### Menu Page Style
--------------------------------------------------------------- */
-#main.main {
-    padding-bottom: 20px;
-}
-/* --------------------------------------------------------------
-##### Menu Banner
+##### Banner Page Style
 -------------------------------------------------------------- */
 #banner.banner {
     text-align: center;
@@ -864,7 +861,6 @@ a.buttons.type1:hover {
 }
 
 #banner .img-banner {
-    background-image: url(/assets/img/menu/banner/menu-banner-1.png);
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -892,12 +888,25 @@ a.buttons.type1:hover {
     transform: translate(-50%, -50%);
 }
 
+/* --------------------------------------------------------------
+##### Menu Page Style
+-------------------------------------------------------------- */
+#main.main {
+    padding-bottom: 20px;
+}
+
 /* ----------------------------------------------------------------
-##### Sashimi
+##### List of dishes
 ---------------------------------------------------------------- */
 #products .type-banner {
     position: relative;
     height: 200px;
+}
+
+@media (max-width: 576px) {
+    #products .type-banner {
+        height: 145px;
+    }
 }
 
 #products .type-banner img {
