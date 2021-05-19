@@ -1102,7 +1102,7 @@ a.buttons.type1:hover {
     width: 200px;
 }
 
-@media (max-width: 576px){
+@media (max-width: 991px){
     #main-promotion .col-wrapper {
         padding-left: 30px;
         padding-right: 30px;
