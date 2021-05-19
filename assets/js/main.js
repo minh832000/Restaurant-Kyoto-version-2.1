@@ -62,15 +62,20 @@
   }
   
   // Init AOS
-  function aos_init() {
-    AOS.init({
-      duration: 1000,
-      once: true
-    });
-  }
-  $(window).on('load', function() {
-    aos_init();
+  AOS.init({
+    once: false,
+    duration: 2000,
   });
+  
+  // function aos_init() {
+  //   AOS.init({
+  //     duration: 1000,
+  //     once: true
+  //   });
+  // }
+  // $(window).on('load', function() {
+  //   aos_init();
+  // });
 
   /* <<<<<======= Menu Page =======>>>> */
   // Drop-down list of dishes
