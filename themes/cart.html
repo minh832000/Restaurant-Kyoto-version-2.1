@@ -74,7 +74,7 @@
                         <a href="/themes/promotion.html">Promotion</a>
                     </li>
                     <li class="child-items">
-                        <a href="#"><i class="icofont-cart"></i></a>
+                        <a href="/themes/cart.html"><i class="icofont-cart"></i></a>
                     </li>
                     <li class="order-online text-center mx-auto">
                         <a href="#">Order online</a>
@@ -104,7 +104,7 @@
                                     <tr class="text-uppercase">
                                         <th scope="col">#</th>
                                         <th scope="col">Product</th>
-                                        <th scope="col" style="width: 120;">Quantity</th>
+                                        <th scope="col" style="width: 120;" class="col-quantity">Quantity</th>
                                         <th scope="col" style="width: 120;">Price</th>
                                         <th scope="col" class="text-end d-none d-lg-block" style="width: 200;"></th>
                                     </tr>
@@ -126,7 +126,7 @@
                                             </figure>
                                         </td>
                                         <td>
-                                            <select class="form-control">
+                                            <select class="form-control col-quantity">
                                                 <option>1</option>
                                                 <option>2</option>
                                                 <option>3</option>
@@ -153,15 +153,15 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-12 col-12">
-                    <div class="card mb-3">
+                    <div class="card mb-3 mt-3 mt-lg-0">
                         <div class="card-body">
                             <form>
                                 <div class="form-group"> 
                                     <label>Have coupon?</label>
                                     <div class="input-group">
-                                        <input type="text" class="form-control coupon" name="" placeholder="Coupon code">
+                                        <input type="text" class="form-control coupon" placeholder="Coupon code">
                                         <span class="input-group-append">
-                                            <button class="btn btn-primary btn-apply coupon">Apply</button>
+                                            <button class="btn btn-apply coupon">Apply</button>
                                         </span> 
                                     </div>
                                 </div>
@@ -172,17 +172,19 @@
                         <div class="card-body">
                             <dl class="dlist-align">
                                 <dt>Total price:</dt>
-                                <dd class="text-right ml-3">$69.97</dd>
+                                <dd class="text-end ml-3">$69.97</dd>
                             </dl>
                             <dl class="dlist-align">
                                 <dt>Discount:</dt>
-                                <dd class="text-right text-danger ml-3">- $10.00</dd>
+                                <dd class="text-end text-danger ml-3">- $10.00</dd>
                             </dl>
                             <dl class="dlist-align">
                                 <dt>Total:</dt>
-                                <dd class="text-right ms-3"><strong>$59.97</strong></dd>
+                                <dd class="text-end ms-3"><strong>$59.97</strong></dd>
                             </dl>
-                            <hr> <a href="#" class="btn btn-out btn-primary btn-square btn-main" data-abc="true"> Make Purchase </a> <a href="#" class="btn btn-out btn-success btn-square btn-main mt-2" data-abc="true">Continue Shopping</a>
+                            <hr>
+                            <a href="#" class="btn btn-out btn-square btn-main" data-abc="true"> Make Purchase </a> 
+                            <a href="#" class="btn btn-out btn-square btn-main mt-2" data-abc="true">Continue Shopping</a>
                         </div>
                     </div>
                 </div>

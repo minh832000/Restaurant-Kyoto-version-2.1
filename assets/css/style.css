@@ -1147,14 +1147,15 @@ a.buttons.type1:hover {
     border-radius: 0;
 }
 #main-cart img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
-    border: 2px solid #000;
+    border: 3px solid #737373;
 }
 
 #main-cart .item-info {
-    padding-left: 40px;
+    padding-left: 15px;
+    padding-right: 7px;
 }
 
 #main-cart .item-inside {
@@ -1169,11 +1170,104 @@ a.buttons.type1:hover {
 }
 
 #main-cart .item-name {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-weight: 400;
 }
 
 #main-cart .item-category {
     font-size: 1rem;
     font-weight: 400;
+}
+
+@media (max-width: 576px) {
+    #main-cart .item-name {
+        font-size: 1rem;
+    }
+
+    #main-cart .item-category {
+        font-size: 0.85rem;
+    }
+
+    #main-cart .item-price {
+        font-size: 0.9rem;
+    }
+
+    #main-cart .col-quantity {
+        width: 60px !important;
+    }
+
+    #main-cart .item-info {
+        padding-left: 6px;
+        padding-right: 0;
+    }
+
+    #main-cart td,
+    #main-cart th {
+        padding: 5px;
+    }
+}
+#main-cart .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.40rem;
+}
+
+#main-cart .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0px
+}
+
+#main-cart .dlist-align {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#main-cart .coupon {
+    border-radius: 1px;
+}
+
+#main-cart .btn {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
+#main-cart .btn.btn-out {
+    outline: 1px solid #fff;
+    outline-offset: -5px;
+}
+
+#main-cart .btn-main {
+    border-radius: 2px;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 10px 19px;
+    cursor: pointer;
+    color: #fff;
+    width: 100%;
+}
+
+#main-cart .btn-light {
+    color: #ffffff;
+    background-color: #F44336;
+    border-color: #f8f9fa;
+    font-size: 12px;
+}
+
+#main-cart .btn-light:hover {
+    color: #ffffff;
+    background-color: #F44336;
+    border-color: #F44336;
+}
+
+#main-cart .btn-apply {
+    font-size: 11px;
 }
