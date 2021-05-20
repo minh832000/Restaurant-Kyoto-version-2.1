@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+    color: #fff;
 }
 
 /* -------------------------------------------------------------
@@ -439,7 +440,7 @@ a.buttons.type1:hover {
 }
   
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-    color: #cda45e;
+    color: #bf0603;
 }
   
 .nav-menu .drop-down > a:after {
@@ -1038,7 +1039,7 @@ a.buttons.type1:hover {
 @media (max-width: 576px) {
     #main-about p {
         font-size: 1rem;
-        word-spacing: 2px;
+        word-spacing: 1.5px;
     }
 
     #main-about h1 {
@@ -1076,6 +1077,7 @@ a.buttons.type1:hover {
     font-size: 1.15rem;
     font-weight: 300;
     font-style: italic;
+    margin-bottom: 10px;
 }
 
 #main-promotion .discount {
@@ -1084,6 +1086,24 @@ a.buttons.type1:hover {
     font-style: normal;
     border-bottom: 2px solid #fff;
     margin-bottom: 40px;
+}
+
+@media (max-width: 576px) {
+    #main-promotion h3 {
+        font-size: 1.55rem;
+    }
+
+    #main-promotion p { 
+        font-size: 1rem;
+    }
+
+    #main-promotion .discount {
+        font-size: 1.25rem;
+    }
+
+    #main-promotion .btn-buy {
+        font-size: 1.15rem !important;
+    }
 }
 
 #main-promotion .col-wrapper {
@@ -1108,4 +1128,51 @@ a.buttons.type1:hover {
         padding-right: 30px;
         padding-top: 30px;
     }
+}
+
+/* ------------------------------------------------------------
+##### Cart Page Style
+------------------------------------------------------------ */
+#main-cart td {
+    color: #fff;
+}
+
+#main-cart.main-cart {
+    padding: 90px 0 90px;
+}
+#main-cart .card {
+    border: 1px solid #737373;
+    background: #212529;
+    border-radius: 0;
+}
+#main-cart img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+#main-cart .item-info {
+    padding-left: 40px;
+}
+
+#main-cart .item-inside {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+#main-cart .item-price {
+    font-style: italic;
+    font-weight: 600;
+}
+
+#main-cart .item-name {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+#main-cart .item-category {
+    font-size: 1rem;
+    font-weight: 400;
 }
