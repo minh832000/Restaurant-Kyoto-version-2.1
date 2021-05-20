@@ -1141,11 +1141,6 @@ a.buttons.type1:hover {
     padding: 90px 0 90px;
 }
 
-#main-cart .card {
-    border: 1px solid #737373;
-    background: #212529;
-    border-radius: 0;
-}
 #main-cart img {
     width: 80px;
     height: 80px;
@@ -1213,6 +1208,9 @@ a.buttons.type1:hover {
 }
 
 #main-cart .card {
+    border: 1px solid #737373;
+    background: #212529;
+    border-radius: 0;
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -1231,15 +1229,6 @@ a.buttons.type1:hover {
     display: flex;
 }
 
-#main-cart .coupon {
-    border-radius: 1px;
-}
-
-#main-cart .btn {
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
-}
-
 #main-cart .btn.btn-out {
     outline: 1px solid #fff;
     outline-offset: -5px;
@@ -1248,26 +1237,20 @@ a.buttons.type1:hover {
 #main-cart .btn-main {
     border-radius: 2px;
     text-transform: capitalize;
-    font-size: 15px;
+    font-size: 1.125rem;
     padding: 10px 19px;
     cursor: pointer;
     color: #fff;
     width: 100%;
 }
 
-#main-cart .btn-light {
-    color: #ffffff;
-    background-color: #F44336;
-    border-color: #f8f9fa;
-    font-size: 12px;
+#main-cart button.coupon {
+    color: #fff;
+    outline: 1px solid #fff;
+    height: 36px;
+    margin-top: 1px;
 }
 
-#main-cart .btn-light:hover {
-    color: #ffffff;
-    background-color: #F44336;
-    border-color: #F44336;
-}
-
-#main-cart .btn-apply {
-    font-size: 11px;
+#main-cart dd {
+    margin-left: 10px;
 }
