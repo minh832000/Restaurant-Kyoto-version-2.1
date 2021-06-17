@@ -1251,3 +1251,11 @@ a.buttons.type1:hover {
     margin-top: 1px;
 }
 
+/* --------------------------------------------------------------
+##### Product Page Style
+-------------------------------------------------------------- */
+#mainProductPage.main-product {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
