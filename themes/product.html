@@ -120,13 +120,56 @@
                               <!-- Product Brand -->
                               <p class="fst-italic fw-lighter">Kyoto Restaurant</p>
                               <!-- Product Title -->
-                              <h3 class="fw-bold text-uppercase">
+                              <h3 class="fw-bold fs-2 text-uppercase">
                                     <a href="#">Salmon Sashimi</a>
                               </h3>
+                              <!-- Product Description -->
+                              <div id="collapseParents" class="card-group-custom" role="tablist" aria-multiselectable="false">
+                                    <!-- Bootstrap Card -->
+                                    <article class="card card-custom card-corporate border-bottom">
+                                          <div class="card-header p-0 fs-5" role="tab">
+                                                <div class="card-title">
+                                                      <a id="cardHeadDescription" data-bs-toggle="collapse" data-bs-target="#collapseDescription" data-bs-parent="#collapseParents" role="button" aria-expanded="true" aria-controls="collapseDescription">
+                                                            Description
+                                                            <div class="card-arrow"></div>
+                                                                                                                 
+                                                      </a>
+                                                </div>
+                                          </div>
+                                          <div id="collapseDescription" class="collapse pb-3" data-bs-parent="#collapseParents" role="tabpanel" aria-labelledby="cardHeadDelivery">
+                                                <div class="card-body p-0">
+                                                      Some placeholder content for the collapse component. 
+                                                      This panel is hidden by default but revealed when the user activates the relevant trigger.  
+                                                </div>
+                                          </div>
+                                    </article>
+                                    <!-- Bootstrap card -->
+                                    <div class="card card-custom card-corporate border-bottom">
+                                          <div class="card-header p-0" role="tab">
+                                                <div class="card-title fs-5">
+                                                      <a id="cardHeadDelivery" data-bs-toggle="collapse" data-bs-target="#collapseDelivery" data-bs-parent="#collapseParents" role="button" aria-expand="false" aria-controls="collapseDelivery">
+                                                            Delivery
+                                                            <div class="card-arrow"></div>
+                                                      </a>
+                                                </div>
+                                                <div id="collapseDelivery" class="collapse pt-1 pb-3" data-bs-parent="#collapseParents" role="tabpanel" aria-labelledby="cardHeadDescription">
+                                                      <div class="card-body p-0">
+                                                            We deliver our goods worldwide. No matter where you live, your order will be shipped in time and delivered right to your door or to any other location you have stated. 
+                                                            The packages are handled with utmost care, so the ordered products will be handed to you safe and sound, just like you expect them to be.
+                                                      </div>
+                                                </div>
+
+                                          </div>
+                                    </div>
+                              </div>
                         
-                              <div class="product-price offset-top-30">
+                              <div class="product-price mt-4">
                                     <span class="product-price-new h5 fw-bold text-content fs-2 text-warning">$34.00</span>
                                     <span class="product-price-old h6 text-light fs-5 text-secondary text-decoration-line-through">$45.00</span>
+                              </div>
+
+                              <div class="">
+
                               </div>
                         
                         </div> 

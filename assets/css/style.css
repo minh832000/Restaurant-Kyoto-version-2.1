@@ -1258,4 +1258,80 @@ a.buttons.type1:hover {
     padding-top: 90px;
     padding-bottom: 90px;
 }
+#mainProductPage .card-group-custom {
+    margin-top: 18px;
+    margin-bottom: 0;
+}
+#mainProductPage .card-group-custom .card-custom {
+    background-color: inherit;
+    display: block;
+    margin: 0;
+    background-color: inherit;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#mainProductPage .card-custom .card-title {
+    margin-bottom: 0;
+}
+#mainProductPage .card-corporate .card-title a {
+    display: block;
+    position: relative;
+    z-index: 1;
+    padding: 18px 0;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    transition: 1.3s all ease;
+}
+
+#mainProductPage .card-corporate .card-title a:active,
+#mainProductPage .card-corporate .card-title a:focus {
+    color: #58c56f;
+    text-decoration: none;
+}
+#mainProductPage .card-arrow {
+    position: absolute;
+    top: 0;
+    bottom: -1px;
+    right: -1px;
+    left: auto;
+    z-index: 2;
+    width: 70px;
+    color: #fff;
+    transition: 0.33s all ease;
+}
+#mainProductPage .card-arrow::before {
+    width: 14px;
+    height: 2px;
+    right: 28px;
+}
+#mainProductPage .card-arrow::before,
+#mainProductPage .card-arrow::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    z-index: 4;
+    background-color: #fff;
+    transform: translateY(-50%);
+}
+
+#mainProductPage a.collapsed .card-arrow::after {
+    opacity: 1;
+    visibility: visible;
+    width: 2px;
+    height: 14px;
+    right: 34px;
+}
+
+#mainProductPage a .card-arrow::after {
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+
+
 
