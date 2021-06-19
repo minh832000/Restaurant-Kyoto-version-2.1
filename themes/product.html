@@ -129,7 +129,7 @@
                                     <article class="card card-custom card-corporate border-bottom">
                                           <div class="card-header p-0 fs-5" role="tab">
                                                 <div class="card-title">
-                                                      <a id="cardHeadDescription" data-bs-toggle="collapse" data-bs-target="#collapseDescription" data-bs-parent="#collapseParents" role="button" aria-expanded="true" aria-controls="collapseDescription">
+                                                      <a id="cardHeadDescription" class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseDescription" data-bs-parent="#collapseParents" role="button" aria-expanded="true" aria-controls="collapseDescription">
                                                             Description
                                                             <div class="card-arrow"></div>
                                                                                                                  
@@ -147,7 +147,7 @@
                                     <div class="card card-custom card-corporate border-bottom">
                                           <div class="card-header p-0" role="tab">
                                                 <div class="card-title fs-5">
-                                                      <a id="cardHeadDelivery" data-bs-toggle="collapse" data-bs-target="#collapseDelivery" data-bs-parent="#collapseParents" role="button" aria-expand="false" aria-controls="collapseDelivery">
+                                                      <a id="cardHeadDelivery" class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseDelivery" data-bs-parent="#collapseParents" role="button" aria-expand="false" aria-controls="collapseDelivery">
                                                             Delivery
                                                             <div class="card-arrow"></div>
                                                       </a>
@@ -162,16 +162,36 @@
                                           </div>
                                     </div>
                               </div>
-                        
+                              <!-- Product Price -->
                               <div class="product-price mt-4">
                                     <span class="product-price-new h5 fw-bold text-content fs-2 text-warning">$34.00</span>
                                     <span class="product-price-old h6 text-light fs-5 text-secondary text-decoration-line-through">$45.00</span>
                               </div>
-
-                              <div class="">
-
+                              <!-- Product Sale -->
+                              <div class="product-sale d-flex mt-4 align-items-center">
+                                    <div class="form-group d-flex align-items-center me-4">
+                                          <label class="me-3 text-uppercase text-light">Quantities:</label>
+                                          <div style="width:70px; height: 38px;">
+                                                <select class="w-100 h-100 fs-5 ps-1">
+                                                      <option>1</option>
+                                                      <option>2</option>
+                                                      <option>3</option>
+                                                      <option>4</option>
+                                                      <option>5</option>
+                                                      <option>6</option>
+                                                      <option>7</option>
+                                                      <option>8</option>
+                                                  </select>
+                                          </div>
+                                    </div>
+                                    <!-- Add to cart -->
+                                    <div class="button-field">
+                                          <button class="btn btn-success text-light text-uppercase fw-bold py-2">
+                                                <i class="fa fa-shopping-cart"></i>
+                                                Add to cart
+                                          </button>
+                                    </div>
                               </div>
-                        
                         </div> 
                   </div>
             </div>

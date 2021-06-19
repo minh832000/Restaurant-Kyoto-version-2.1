@@ -1300,7 +1300,6 @@ a.buttons.type1:hover {
     left: auto;
     z-index: 2;
     width: 70px;
-    color: #fff;
     transition: 0.33s all ease;
 }
 #mainProductPage .card-arrow::before {
@@ -1308,6 +1307,13 @@ a.buttons.type1:hover {
     height: 2px;
     right: 28px;
 }
+
+#mainProductPage .card-arrow::after {
+    width: 2px;
+    height: 14px;
+    right: 34px;
+}
+
 #mainProductPage .card-arrow::before,
 #mainProductPage .card-arrow::after {
     content: '';
@@ -1321,9 +1327,6 @@ a.buttons.type1:hover {
 #mainProductPage a.collapsed .card-arrow::after {
     opacity: 1;
     visibility: visible;
-    width: 2px;
-    height: 14px;
-    right: 34px;
 }
 
 #mainProductPage a .card-arrow::after {
