@@ -1334,7 +1334,21 @@ a.buttons.type1:hover {
     visibility: hidden;
 }
 
+#mainProductPage .product-thumbnails .product-thumbnail-item {
+    display: block;
+    margin: 10px;
+    opacity: 0.63;
+    border: 1px solid #e3d9ef;
+}
 
+#mainProductPage .product-thumbnails .product-thumbnail-item.active {
+    border: 1px solid #e5383b;
+    opacity: 1;
+}
 
-
+#mainProductPage .product-preview-image {
+    width: 450px;
+    height: 300px;
+    overflow: hidden;
+}
 

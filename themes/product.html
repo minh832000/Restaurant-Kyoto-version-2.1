@@ -20,6 +20,7 @@
       <link href="/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
       <link href="/assets/vendor/fontawesome/css/all.min.css" rel="stylesheet">
       <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+      <link href="/assets/vendor/owlcarousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
 
       <!-- Template Main CSS File -->
       <link href="/assets/css/style.css" rel="stylesheet">
@@ -93,27 +94,43 @@
       <!-- Main Content -->
       <div id="mainProductPage" class="main-product" role="main">
             <div class="container">
-                  <div class="row">
-                        <div class="col-lg-6 col-md-8 text-center">
-                              <div class="product-image">
-                                    <div class="image">
-                                          <img class="img-fluid" src="/assets/img/menu/sashimi/salmon-sashimi.png" alt="">
-                                    </div>
-                                    <div class="product-thumbnails pt-3">
-                                          <ul class="list-unstyled d-inline-flex">
-                                                <li class="p-1">
-                                                      <img class="img-fluid" src="/assets/img/menu/sashimi/salmon-sashimi.png" width="90" height="90">
+                  <div class="row justify-content-sm-center">
+                        <div class="col-lg-6 col-md-8 text-center mb-5">
+                              <!-- Start Product Image Preview -->
+                              <div class="product-image">    
+                                    <!-- Product Large Image -->                                
+                                    <div class="tab-content product-preview-image">
+                                          <div id="one" class="tab-pane fade show active" role="tabpanel" aria-labelledby="first">
+                                                <img class="img-fluid" src="/assets/img/menu/sashimi/salmon-sashimi-thumbnail-03.png" alt="">
+                                          </div>
+                                          <div id="two" class="tab-pane fade" role="tabpanel" aria-labelledby="second">
+                                                <img class="img-fluid" src="/assets/img/menu/sashimi/salmon-thumbnail-01.png" alt="">
+                                          </div>
+                                          <div id="three" class="tab-pane fade" role="tabpanel" aria-labelledby="third">
+                                                <img class="img-fluid" src="/assets/img/menu/sashimi/salmon-thumbnail-02.png" alt="">
+                                          </div>
+                                    </div> <!-- end Product Large Image -->
+                                    <!-- Product Thumbnail Image List -->
+                                    <div class="product-thumbnails">
+                                          <ul class="nav d-flex justify-content-center" role="tablist">
+                                                <li role="presentation">
+                                                      <a id="first" class="product-thumbnail-item active d-block" href="#one" data-bs-toggle="tab" data-bs-target="#one" type="button" role="tab" aria-controls="one" aria-selected="true">
+                                                            <img src="/assets/img/menu/sashimi/salmon-sashimi.png" alt="product-thumbnail" width="80px" height="80px">
+                                                      </a>
                                                 </li>
-                                                <li class="p-1">
-                                                      <img src="/assets/img/menu/sashimi/salmon-thumbnail-01.png" width="90" height="90">
+                                                <li role="presentation">
+                                                      <a id="second" class="product-thumbnail-item d-block" href="#two" data-bs-toggle="tab" type="button" data-bs-target="#two" aria-controls="two" aria-selected="false">
+                                                            <img src="/assets/img/menu/sashimi/salmon-thumbnail-01.png" alt="product-thumbnail" width="80px" height="80px">
+                                                      </a>
                                                 </li>
-                                                <li class="p-1">
-                                                      <img src="/assets/img/menu/sashimi/salmon-thumbnail-02.png" width="90" height="90">   
+                                                <li role="presentation">
+                                                      <a id="third" class="product-thumbnail-item d-block" href="#three" data-bs-toggle="tab" data-bs-target="#three" type="button" aria-controls="three" aria-selected="false">
+                                                            <img src="/assets/img/menu/sashimi/salmon-thumbnail-02.png" alt="product-thumbnail" width="80px" height="80px">
+                                                      </a>
                                                 </li>
-
                                           </ul>
-                                    </div>
-                              </div>
+                                    </div> <!-- end Product Thumbnail Image List -->
+                              </div> <!-- end Product Image Preview -->
                         </div>
 
                         <div class="col-lg-6 col-md-12 text-start offset-md-top-10">
@@ -240,6 +257,7 @@
       <script src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
       <script src="/assets/vendor/aos/aos.js"></script>
       <script src="/assets/vendor/jquery/jquery.min.js"></script>
+      <script src="/assets/vendor/owlcarousel/dist/owl.carousel.min.js"></script>
 
       <!-- Main Script Files -->
       <script src="/assets/js/main.js"></script>
