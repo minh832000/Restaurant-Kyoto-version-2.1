@@ -1352,3 +1352,31 @@ a.buttons.type1:hover {
     overflow: hidden;
 }
 
+/* ---------------------------------------------------------------
+##### Check-out Form Page Style
+--------------------------------------------------------------- */
+#mainCheckOutForm.main-check_out-form {
+    margin-top: 240px;
+    margin-bottom: 90px;
+}
+
+#mainCheckOutForm .cart-detail .price {
+    float: right;
+}
+
+#mainCheckOutForm .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 28px;
+}
+
+#mainCheckOutForm .cart-item-group img {
+    width: 100px;
+    height: 70px;
+    margin-right: 25px;
+    border: 2px solid gray;
+}
+
+#mainCheckOutForm .cart-item {
+    margin-bottom: 20px;
+}
