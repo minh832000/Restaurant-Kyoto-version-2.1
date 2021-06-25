@@ -36,3 +36,8 @@ a {
   #admin-page .custom-info {
       font-size: 14px;
   }
+
+  #admin-page .list-products .img-responsive {
+      width: 120px;
+      height: 80px;
+  }
