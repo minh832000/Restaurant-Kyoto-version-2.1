@@ -1,10 +1,10 @@
 a {
-      color: #fff;
+      color: black;
       text-decoration: none;
   }
   
   a:hover {
-      color: #fff;
+      color: black;
       text-decoration: none;
   }
   
@@ -15,5 +15,24 @@ a {
   p {
       font-family: 'Open Sans', sans-serif;
       margin: 0;
-      color: #fff;
+      font-size: 14px;
+  }
+
+  button {
+      font-size: 14px !important;
+  }
+
+  #admin-page .main-content {
+      margin-top: 45px;
+      margin-left: 45px;
+      margin-right: 45px;
+  }
+
+  #admin-page .list-orders {
+      margin-top: 20px;
+  }
+
+  #admin-page .order-info,
+  #admin-page .custom-info {
+      font-size: 14px;
   }
