@@ -650,7 +650,7 @@ a.buttons.type1:hover {
 #about.about {
     padding-top: 90px;
     padding-bottom: 45px;
-    background-image: url(/assets/img/about-us_bg_option-2.png);
+    background-image: url(./assets/img/about-us_bg_option-2.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -762,7 +762,7 @@ a.buttons.type1:hover {
 #menu.menu {
     padding-top: 45px;
     padding-bottom: 45px;
-    background-image: url(/assets/img/menu_bg.png);
+    background-image: url(./assets/img/menu_bg.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -807,7 +807,7 @@ a.buttons.type1:hover {
 ##### Decoration Sake Section
 --------------------------------------------------------------- */
 #decor-sake .sake {
-    background-image: url(/assets/img/home/homepage_heading-4.png);
+    background-image: url(./assets/img/home/homepage_heading-4.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
